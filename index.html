@@ -8,10 +8,26 @@
         body { font-family: sans-serif; text-align: center; padding: 50px; background: #f4f4f9; }
         h1 { color: #333; }
         p { color: #666; font-size: 18px; }
+        .my-btn {
+    background-color: #007bff; /* Modern Blue Color */
+    color: white;              /* White Text */
+    padding: 12px 24px;        /* Spacing Inside Button */
+    font-size: 16px;           /* Text Size */
+    border: none;              /* Removes Default Border */
+    border-radius: 5px;        /* Rounded Corners */
+    cursor: pointer;           /* Changes Mouse Cursor to Pointer */
+    transition: background 0.3s ease; /* Smooth Hover Animation */
+}
+
+/* Change color when the user hovers their mouse over it */
+.my-btn:hover {
+    background-color: #0056b3; /* Darker Blue */
+}
     </style>
 </head>
 <body>
     <h1>Welcome to My Website</h1>
     <p>Hosted locally, accessible globally.</p>
+    <button class="my-btn">Click Me</button>
 </body>
 </html>
